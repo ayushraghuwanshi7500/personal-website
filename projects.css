@@ -1,0 +1,28 @@
+body {
+  font-family: Montserrat-thin;
+  background-color: #ffe2e2;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+li {
+  list-style: none;
+  padding-left: 50px;
+  font-weight: 700px;
+  letter-spacing: 4px;
+  font-size: 1rem;
+}
+
+.navbar-brand {
+  padding-top: 50px;
+}
+.rowh1{
+  text-align: center;
+}
+.rowfa{
+  text-align: center;
+  padding-bottom: 40px;
+}

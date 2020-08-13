@@ -218,3 +218,37 @@ footer{
   /* padding: 0; */
 }
 /* footer common css end */
+@media screen and (max-width: 990px) {
+    .container {
+        width: 100%;
+    }
+    .navbar-nav {
+        position: inherit;
+        font-size: 1.125rem;
+    }
+    .navbar-brand {
+        width: 50%;
+    }
+    #nav-name {
+        font-size: 2rem;
+    }
+    #nav-sub {
+        font-size: 1.125rem;
+    }
+    .body-container {
+        margin-top: 2rem;
+    }
+
+}
+
+@media screen and (max-width: 1699px){
+    body{
+    zoom: 1;
+    }
+}
+
+@media screen and (min-width: 1700px){
+    body{
+        zoom: 1.225;;
+    }
+}

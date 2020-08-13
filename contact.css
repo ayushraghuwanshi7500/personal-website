@@ -162,6 +162,9 @@ footer{
         margin-top: 2rem;
     }
     .rowh1{
+      
+      position: relative;
+      left: 4px;
       font-size: 80px;
     }
     img{

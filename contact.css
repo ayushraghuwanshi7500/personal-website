@@ -171,6 +171,10 @@ footer{
       height: 280px;
       width: 280px;
     }
+  .rowh4{
+      position: relative;
+      top:23px;
+    }
 }
 
 @media screen and (max-width: 1699px){

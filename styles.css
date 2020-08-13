@@ -25,17 +25,41 @@ body{
   padding-right: 10px;
   padding-bottom: 10px;
 }
-.quote-right{
-  color: gray;
-  padding-top:40px;
-}
-.quote-left{
-  color: gray;
-  padding-right: 20px;
 
+#quote {
+    height: 100px;
+    width: 100%;
+    margin: 0 0.125rem;
+    position: relative;
 }
-.quote-text{
- color: gray;
+
+.quote-text,
+.quote-icon {
+    opacity: 50%;
+}
+
+.quote-align {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -28px 0 0 -166px;
+}
+.quote-text {
+    position: relative;
+    right: 30px;
+}
+
+
+.icon-left {
+    position: absolute;
+    left: 62px;
+}
+
+.icon-right {
+    margin: 0;
+    position: absolute;
+    right: 70px;
+    bottom: 0px;
 }
 .fa-envelope-o{
   text-align: center;
@@ -106,3 +130,82 @@ li{
 #profile{
   margin-left: 25px;
 }
+@media screen and (max-width: 990px) {
+    .container {
+        width: 100%;
+    }
+    .navbar-nav {
+        position: inherit;
+        font-size: 1.125rem;
+    }
+    .navbar-brand {
+        width: 50%;
+    }
+    #nav-name {
+        font-size: 2rem;
+    }
+    #nav-sub {
+        font-size: 1.125rem;
+    }
+    .body-container {
+        margin-top: 2rem;
+    }
+    #intro,
+    #directs,
+
+    #profile {
+        margin: 2rem 0;
+    }
+    #profile{
+      text-align: center;
+
+    }
+    .circle {
+        opacity: 100%;
+        width: 6.75rem;
+        height: 6.75rem;
+        margin: 0.3rem
+    }
+    .quote-icon {
+        font-size: 1rem;
+    }
+    .follow-me {
+        margin: 1rem 0;
+    }
+    .copyright {
+        margin-top: 1rem;
+    }
+    .icon-left {
+        position: absolute;
+        left: 0;
+    }
+
+    .icon-right {
+        margin: 0;
+        position: absolute;
+        right: 0;
+        bottom: 0px;
+    }
+    .quote-text {
+      /* text-align: center; */
+        font-size: 1rem;
+        margin-top: 0.125rem;
+        position: relative;
+        left: 10px;
+    }
+    img{
+      position: relative;
+      right: 5px;
+    }
+}
+
+@media screen and (max-width: 1699px){
+    body{
+    zoom: 1;
+    }
+}
+
+@media screen and (min-width: 1700px){
+    body{
+        zoom: 1.225;;
+    }
